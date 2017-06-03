@@ -985,8 +985,9 @@ var RulersGuides = function (evt, dragdrop) {
         this.status = 1;
     };
 
-    evt.attach('mousedown', document, function (e, src) {
+    //evt.attach('mousedown', document, function (e, src) {
     //evt.attach('mousedown', document.getElementById('canvas_wrapper'), function (e, src) {
+    evt.attach('mousedown', body, function (e, src) {
         var x               = e.clientX,
             y               = e.clientY,
             guide           = null,
