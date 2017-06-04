@@ -185,6 +185,7 @@ html,body {
     top: 42px;
     line-height: 9px;
     /* z-index: 9998; */
+    z-index: 2;
     width: 20px;
     height: 20px;
     background-color: red;
@@ -319,7 +320,8 @@ html,body {
 
 .info-block-wrapper {
     position: absolute;
-    z-index: 9989
+    /* z-index: 9989 */
+    z-index: 1;
 }
 
 .info-block {
